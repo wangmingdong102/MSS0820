@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2009 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
+
+    <!-- Hotseat -->
+    <include launcher:workspace="@xml/dw_phone_hotseat" />
+
+    <!-- Bottom row -->
+    <favorite
+        launcher:screen="0"
+        launcher:x="1"
+        launcher:y="4"
+	launcher:className="com.android.browser.BrowserActivity"
+	launcher:packageName="com.android.browser" >
+    </favorite>
+
+    <favorite
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="4"
+        launcher:className="com.android.settings.Settings"
+        launcher:packageName="com.android.settings" >
+    </favorite>
+
+    <favorite
+        launcher:screen="2"
+        launcher:x="1"
+        launcher:y="4"
+        launcher:className="com.android.browser.BrowserActivity"
+        launcher:packageName="com.android.browser" >
+    </favorite>
+<!-- mss_lcdtest_movietest_2017_10_15 -->
+ <!--   <favorite
+        launcher:screen="1"
+        launcher:x="1"
+        launcher:y="4"
+	launcher:className="com.microsoft.office.apphost.LaunchActivity"
+	launcher:packageName="com.microsoft.office.powerpoint" >
+    </favorite>
+
+    <favorite
+        launcher:screen="1"
+        launcher:x="2"
+        launcher:y="4"
+        launcher:className="com.xxd.android.XXDLcdTest"
+        launcher:packageName="com.xxd.android" >
+    </favorite>
+
+    <favorite
+        launcher:screen="1"
+        launcher:x="3"
+        launcher:y="4"
+        launcher:className="com.xxd.android.MovieTest"
+        launcher:packageName="com.xxd.android" >
+    </favorite>
+    <favorite
+        launcher:screen="1"
+        launcher:x="4"
+        launcher:y="4"
+        launcher:className="com.xxd.android.MshowTest"
+        launcher:packageName="com.xxd.android" >
+    </favorite>-->
+    <!-- mss_lcdtest_movietest_2017_10_15 -->
+</favorites>
