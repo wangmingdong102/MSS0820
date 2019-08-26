@@ -6356,7 +6356,7 @@ public class PhoneWindowManager implements WindowManagerPolicy {
     /** {@inheritDoc} */
     @Override
     public void systemReady() {
-        setUserRotationMode(WindowManagerPolicy.USER_ROTATION_LOCKED, 3);
+        setUserRotationMode(WindowManagerPolicy.USER_ROTATION_LOCKED, Surface.ROTATION_90/*1*/);
         mKeyguardDelegate = new KeyguardServiceDelegate(mContext);
         mKeyguardDelegate.onSystemReady();
 
