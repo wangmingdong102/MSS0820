@@ -267,6 +267,7 @@ class WifiApConfigStore extends StateMachine {
         config.allowedKeyManagement.set(KeyMgmt.WPA2_PSK);
         String randomUUID = UUID.randomUUID().toString();
         //first 12 chars from xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx
+//        config.SSID = "AndroidAP111"; // SSID
         config.preSharedKey = "11111111";//randomUUID.substring(0, 8) + randomUUID.substring(9,13);
         sendMessage(WifiStateMachine.CMD_SET_AP_CONFIG, config);
     }
